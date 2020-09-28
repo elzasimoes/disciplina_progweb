@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 20em;
+    border: 2px solid #666;
+    }
+    thead {
+    background: #3d80df
+    border-top: 1px solid #a5a5a5;
+    border-bottom: 1px solid #a5a5a5;
+    }
+    tr{
+    background-color:#3d80df;
+    color: #fff;
+    }
+    thead tr:hover {
+    background-color: #3d80df;
+    color: inherit;
+    }
+    tr:nth-child(even) {
+    background-color: #3d80df;
+    }
+    th {
+    font-weight: normal;
+    text-align: left;
+    }
+    th, td {
+    padding: 0.1em 1em;
+    }
+    
